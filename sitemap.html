@@ -14,53 +14,170 @@
   gtag('config', 'UA-169867388-1');
 </script>
     <style>
-        body {
-            background-color: ghostwhite;
-            margin-left: 200px;
-            margin-right: 100px;
-        }
-        h1 {
-            font-family: Arial, Helvetica, sans-serif;
-            color: darkslategray;
+        h1 {  
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: unset;   
+            margin-bottom: unset;     
             text-align: center;
+            font-family: 'Montserrat', sans-serif;
+            top: 20%;
+            left: 20%;
+            font-size:80pt;
+            letter-spacing:0.1em;
+      -webkit-text-fill-color: transparent;
+      -webkit-text-stroke-width: 3px;
+      -webkit-text-stroke-color: #ffe6ee;
+      text-shadow: 8px 8px #ff1f8f, 20px 20px #000000;
+        
         }
-        h3 {
-            font-family: 'Lucida Sans', 'Lucida Sans Regular', 
-            'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-            color: lawngreen;
-            size: 1.2em;
+    
+     .topnav {
+            width: 100%;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            text-align: center;
+            
         }
-        img {
-            width: 50px;
+    
+        .topnav a {
+            padding: 14px 26px;
+            text-decoration: none;
+            color: black;
+            text-transform: uppercase;
+            font-size: 30pt;
+            font-family: 'Staatliches', cursive;
         }
+    
+        .topnav img {
+            margin-top: none;
+            margin-bottom: none;
+        }
+        a:link {
+            color: black;
+        }
+    
+        a:visited {
+            color: black;
+        }
+    
+        a:hover{
+            color: #ffe6ee ;
+        }
+        
+        a:active{
+            color: #ffe6ee;
+        }
+    
+        hr {
+            width: 90%;
+        }
+        .body {
+            width: 100%;
+            
+        }
+        .align {
+            text-align: center;
+            padding: 25px 35px 25px 25px;
+        }
+
+        p {
+            font-family: 'Lora', serif;
+            line-height: 50px;
+            font-size: 18pt;
+        }
+    
+        #navbar {
+            overflow: hidden;
+            background-color: white;
+        }
+    
+        #navbar a {
+            float: inline;
+            display: inline-block;
+            color: black;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+    
+        #navbar a:hover {
+      background-color: #ddd;
+      color: black;
+    }
+    
+    #navbar a.active {
+      background-color: #ffe6ee;
+      color: white;
+    }
+    
+    .sticky {
+        position: fixed;
+        top: 0;
+        width: 100%;
+    }
+    
+    .sticky + .content {
+        padding-top: 60px;
+    }
+    #title {
+        font-size: 48pt;
+        font: black;
+        font-family: 'Montserrat', sans-serif;
+        text-shadow: 4px 4px #ffe6ee;
+        padding: 5px 25px;    
+    }
+     
+    #heading {
+        font-family: 'Staatliches', cursive;
+            font-size: 25pt;
+            text-align: left;
+            text-shadow: blanchedalmond 2px 1px;
+    }
+
+    button {
+        font-family: 'Raleway', sans-serif;  
+        padding: 15px 30px; 
+        font-size: 15pt;     
+        text-decoration: none;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    
     </style>
 </head>
 <body>
-    <div class="topnav">
+    <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@900&family=Lora:wght@400;500&family=Montserrat:ital,wght@1,900&family=Open+Sans&family=Raleway:ital,wght@1,900&family=Staatliches&display=swap" rel="stylesheet">
+    <div id="navbar" class="topnav">
+        <h1 id="navbar">THE SINLESS FORK</h1>
         <a href="index.html">About Me</a>
-        <a href="fitness.html">Fitness</a>
         <a href="wellness.html">Wellness</a>
-        <button><img src="images/logo.png" alt="Logo" height="250"><a class="active" href="index.html"></a></a></button>
         <a href="healthyeats.html">Healthy Eats</a>
         <a href="notsohealthyeats.html">Not So Heathy Eats</a>
+        <a href="fitness.html">Fitness</a>
         <a href="contactpage.html">Contact</a>
+        <hr id="thin">
       </div>
-    <h1>Sinless Fork Site Map</h1>
-    <hr>
-    <h3>
-        <h4>About Sinless Fork</h4>
+      <div class="body">
+
+    
+    <p id="title" class="align">SINLESS FORK SITEMAP</p>
+    
+    <p class="align">
+        <h4 id="heading">About Sinless Fork</h4>
         <p><a href="index.html">About Me</a></p>
         <p><a href="contactpage.html">Contact Page</a></p>
         <p><a href="contactpage.html">Feedback Form</a></p>
-        <h4>Wellness</h4>
+        <h4 id="heading">Wellness</h4>
         <p><a href="wellness.html">Mental Health & Wellness</a></p>
-        <h4>Fitness</h4>
+        <h4 id="heading">Fitness</h4>
         <p><a href="fitness.html">Physical Health</a></p>
-        <h4>Nutrition</h4>
+        <h4 id="heading">Nutrition</h4>
         <p><a href="healthyeats.html">Healthy Eats</a></p>
         <p><a href="notsohealthyeats.html">Not So Healthy Eats</a></p>
-    </h3>
+    </p>
     <button><a href="index.html">Home Page</a></button>
-   <hr>
+</div>
 </body>
 </html>
