@@ -310,10 +310,12 @@
     </table>
   
     <h2 class="align" id="title1">Any Feedback? Let's Connect!</h2>
-        <form method="post" action="mailto:gmiller2@babson.edu">
+        <form name="myForm" method="post" onsubmit="return validateForm()"
+        action="thankyou.html">
         <label id="caption" for="name">NAME</label>
         <br>
         <input
+        name="fname"
           type="text"
           id="lastname"
           name="lastname"
@@ -324,6 +326,7 @@
         <label id="caption" for="email">EMAIL</label>
         <br>
         <input
+          name="email"
           type="email"
           id="email"
           name="emailaddress"
@@ -362,6 +365,15 @@
             navbar.classList.remove("sticky");
           }
         }
+  // "animate something or add some other functionalities besides what is listed above.""
+        function validateForm() {
+  let x = document.forms["myForm"]["fname"].value;
+  if (x == "") {
+    alert("Make sure to enter your name!");
+    // return false;
+  }
+  }
+  // validate form
         </script>
 
   </body>
