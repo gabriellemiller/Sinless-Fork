@@ -186,6 +186,44 @@
         text-shadow: 4px 4px #ffe6ee;
         padding: 35px 25px;
       }
+
+      #title1 {
+        text-transform: uppercase;
+        font-size: 30pt;
+        font-family: "Montserrat", sans-serif;
+        text-shadow: 1px 1px #ff69b4;
+        padding: 35px 25px;
+      }
+
+      button {
+        text-transform: uppercase;
+        font-size: 18pt;
+        color: lavenderblush;
+        font-family: "Montserrat", sans-serif;
+        text-shadow: 2px 1px #ff69b4;
+        padding: 35px 35px;
+      }
+
+      #centered-button {
+        display: flex;
+        justify-content: center;
+      }
+
+      .container1 {
+        padding-left: 950px;
+      }
+
+      #quoteDisplay {
+        font-family: "Lora", serif;
+        padding: 25px 15px 10px;
+        font-size: 20pt;
+        text-align: center;
+      }
+
+      #whitespace {
+        color: white;
+        font-size: x-small;
+      }
     </style>
   </head>
   <body>
@@ -257,6 +295,23 @@
         your guys' <a href="contactpage.html">inputs</a>
         and what you guys like and don't like so I can make this page more
         interactive!
+      </p>
+      <p class="align" id="title1">
+        CLICK BELOW TO GET YOUR PRE-WORKOUT QUOTE OF THE DAY
+      </p>
+      <div id="quoteDisplay">
+        <!-- quotes will be displayed here -->
+      </div>
+      <div class="container1">
+        <button class="align" id="centered-button" onclick="newQuote()">
+          QUOTE OF THE DAY
+        </button>
+      </div>
+
+      <p id="whitespace">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, enim
+        sed. Esse repellendus neque unde eius aliquam vero dolores. Saepe
+        corporis tenetur porro temporibus quis sint ab consequatur nam autem.
       </p>
       <div>
         <iframe
@@ -330,6 +385,25 @@
       <p><a href="sitemap.html">Sitemap</a></p>
       <br />
       <script>
+        let quotes = [
+          "A healthy outside starts from the inside.",
+          "Love yourself enough to live a healthy lifestyle.",
+          "Take care of your body. It’s the only place you have to live.",
+          "Health is the crown on the well person’s head that only the ill person can see.",
+          "The mind and body are not separate. what affects one, affects the other.",
+          "If you’re too busy to workout, your priorities need to change. I can’t think of too many things more important than your health.",
+          "The ingredients of health and long life, and great temperance, open air, easy labor, and little care.",
+          "Your body will be around a lot longer than that expensive handbag. Invest in yourself.",
+          "Sufficient sleep, exercise, healthy food, friendship, and peace of mind are necessities, not luxuries.",
+        ];
+
+        function newQuote() {
+          let randomNumber = Math.floor(Math.random() * quotes.length);
+          document.getElementById("quoteDisplay").innerHTML =
+            quotes[randomNumber];
+        }
+        // "change the text on a page in response to the user’s action"
+
         window.onscroll = function () {
           myFunction();
         };
@@ -346,8 +420,6 @@
         }
         // "animate something or add some other functionalities besides what is listed above.""
       </script>
-      <!-- </body> -->
-      <!-- </html> -->
     </div>
   </body>
 </html>
