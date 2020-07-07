@@ -1,286 +1,344 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Eating healthy but making it FUN! Lets explore fun nutritionally dense recipes that make us feel satisfied and good on the inside.">
-    <meta name="keywords" content="Sinless Fork; Cheat Day; Healthy Lifestyle; Recipes; Workout; Health and Wellness; Healthy Food;">
-    <meta name="author" content="Gabrielle Miller">
+  <head>
+    <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Eating healthy but making it FUN! Lets explore fun nutritionally dense recipes that make us feel satisfied and good on the inside."
+    />
+    <meta
+      name="keywords"
+      content="Sinless Fork; Cheat Day; Healthy Lifestyle; Recipes; Workout; Health and Wellness; Healthy Food;"
+    />
+    <meta name="author" content="Gabrielle Miller" />
     <title>Healthy Eats</title>
     <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-169867388-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=UA-169867388-1"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
 
-  gtag('config', 'UA-169867388-1');
-</script>
+      gtag("config", "UA-169867388-1");
+    </script>
 
-<style>
+    <style>
+      h1 {
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: unset;
+        margin-bottom: unset;
+        text-align: center;
+        font-family: "Montserrat", sans-serif;
+        top: 20%;
+        left: 20%;
+        font-size: 80pt;
+        letter-spacing: 0.1em;
+        -webkit-text-fill-color: transparent;
+        -webkit-text-stroke-width: 3px;
+        -webkit-text-stroke-color: #ffe6ee;
+        text-shadow: 8px 8px #ff1f8f, 20px 20px #000000;
+      }
 
-    h1 {  
-            margin-left: auto;
-            margin-right: auto;
-            margin-top: unset;   
-            margin-bottom: unset;     
-            text-align: center;
-            font-family: 'Montserrat', sans-serif;
-            top: 20%;
-            left: 20%;
-            font-size:80pt;
-            letter-spacing:0.1em;
-      -webkit-text-fill-color: transparent;
-      -webkit-text-stroke-width: 3px;
-      -webkit-text-stroke-color: #ffe6ee;
-      text-shadow: 8px 8px #ff1f8f, 20px 20px #000000;
-        
-        }
-    
-     .topnav {
-            width: 100%;
-            display: block;
-            margin-left: auto;
-            margin-right: auto;
-            text-align: center;
-            
-        }
-    
-        .topnav a {
-            padding: 14px 26px;
-            text-decoration: none;
-            color: black;
-            text-transform: uppercase;
-            font-size: 30pt;
-            font-family: 'Staatliches', cursive;
-        }
-    
-        .topnav img {
-            margin-top: none;
-            margin-bottom: none;
-        }
-        a:link {
-            color: black;
-        }
-    
-        a:visited {
-            color: black;
-        }
-    
-        a:hover{
-            color: #ffe6ee ;
-        }
-        
-        a:active{
-            color: #ffe6ee;
-        }
-    
-        hr {
-            width: 90%;
-        }
-        .body {
-            width: 100%;
-            
-        }
-        .align {
-            text-align: center;
-            padding: 25px 35px 25px 25px;
-        }
-    
-    .container {
-      position: relative;
-      width: 100%;
-    }
-    
-    .image {
-      display: block;
-      width: 100%;
-      height: auto;
-      object-fit: contain;
-      float: left;
-      align-self: flex-start;
-      padding-bottom: 75px;
-    
-    }
-        p {
-            font-family: 'Lora', serif;
-            line-height: 50px;
-            font-size: 18pt;
-        }
-    
-        #navbar {
-            overflow: hidden;
-            background-color: white;
-        }
-    
-        #navbar a {
-            float: inline;
-            display: inline-block;
-            color: black;
-            text-align: center;
-            padding: 14px 16px;
-            text-decoration: none;
-        }
-    
-        #navbar a:hover {
-      background-color: #ddd;
-      color: black;
-    }
-    
-    #navbar a.active {
-      background-color: #ffe6ee;
-      color: white;
-    }
-    
-    .sticky {
+      .topnav {
+        width: 100%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+      }
+
+      .topnav a {
+        padding: 14px 26px;
+        text-decoration: none;
+        color: black;
+        text-transform: uppercase;
+        font-size: 30pt;
+        font-family: "Staatliches", cursive;
+      }
+
+      .topnav img {
+        margin-top: none;
+        margin-bottom: none;
+      }
+      a:link {
+        color: black;
+      }
+
+      a:visited {
+        color: black;
+      }
+
+      a:hover {
+        color: #ffe6ee;
+      }
+
+      a:active {
+        color: #ffe6ee;
+      }
+
+      hr {
+        width: 90%;
+      }
+      .body {
+        width: 100%;
+      }
+      .align {
+        text-align: center;
+        padding: 25px 35px 25px 25px;
+      }
+
+      .container {
+        position: relative;
+        width: 100%;
+      }
+
+      .image {
+        display: block;
+        width: 100%;
+        height: auto;
+        object-fit: contain;
+        float: left;
+        align-self: flex-start;
+        padding-bottom: 75px;
+      }
+      p {
+        font-family: "Lora", serif;
+        line-height: 50px;
+        font-size: 18pt;
+      }
+
+      #navbar {
+        overflow: hidden;
+        background-color: white;
+      }
+
+      #navbar a {
+        /* float: inline; */
+        display: inline-block;
+        color: black;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+      }
+
+      #navbar a:hover {
+        background-color: #ddd;
+        color: black;
+      }
+
+      #navbar a.active {
+        background-color: #ffe6ee;
+        color: white;
+      }
+
+      .sticky {
         position: fixed;
         top: 0;
         width: 100%;
-    }
-    
-    .sticky + .content {
+      }
+
+      .sticky + .content {
         padding-top: 60px;
-    }
-    .footer {
-            position: relative;
-            left: 0;
-            bottom: 0;
-            width: 100%;
-            height: 100%;
-            background-color: #ffe6ee;
-            color: white;
-            text-align: center;
-            padding: 15px;
-    }
-    
-          .footer a {
-            text-decoration: none;
-            font-family: 'Montserrat', sans-serif;
-           text-transform: uppercase;
-            color: white;
-            font-size: 30pt;
-          }
-    
-          .footer a:visited{
-            color: white;
-          }
-    
-          .footer a:hover {
-            color: black;
-          }
-          
-          .footer a:active {
-            color: black;
-          }
-    
-          #title {
+      }
+      .footer {
+        position: relative;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        height: 100%;
+        background-color: #ffe6ee;
+        color: white;
+        text-align: center;
+        padding: 15px;
+      }
+
+      .footer a {
+        text-decoration: none;
+        font-family: "Montserrat", sans-serif;
+        text-transform: uppercase;
+        color: white;
+        font-size: 30pt;
+      }
+
+      .footer a:visited {
+        color: white;
+      }
+
+      .footer a:hover {
+        color: black;
+      }
+
+      .footer a:active {
+        color: black;
+      }
+
+      #title {
         font-size: 48pt;
-        font-family: 'Montserrat', sans-serif;
+        font-family: "Montserrat", sans-serif;
         text-shadow: 4px 4px #ffe6ee;
-        padding: 35px 25px;    
-    }
-    #title1 {
+        padding: 35px 25px;
+      }
+      #title1 {
         font-size: 48pt;
-        font-family: 'Montserrat', sans-serif;
+        font-family: "Montserrat", sans-serif;
         text-shadow: 4px 4px #ffe6ee;
         padding-top: unset;
-        padding-bottom: unset;   
-    }
-
-            #rightbox { 
-                float:right;  
-                width:50%; 
-                height:280px; 
-            }
-
-</style>
-
-</head>
-<body>
-    <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@900&family=Lora:wght@400;500&family=Montserrat:ital,wght@1,900&family=Open+Sans&family=Raleway:ital,wght@1,900&family=Staatliches&display=swap" rel="stylesheet">
-    <div id="navbar" class="topnav">
-        <h1 id="navbar">THE SINLESS FORK</h1>
-        <a href="index.html">About Me</a>
-        <a href="wellness.html">Wellness</a>
-        <a class="active" href="healthyeats.html">Healthy Eats</a>
-        <a href="notsohealthyeats.html">Not So Healthy Eats</a>
-        <a href="fitness.html">Fitness</a>
-        <a href="contactpage.html">Contact</a>
-        <hr id="thin">
-      </div> 
-      <div class="container">
-        <img src="images/healthyeatsbanner.png" class="image" title="Healthy Eats Banner" alt="healthyeats">
-      </div>  
-      <div class="body">
-          <p id="title" class="align">
-            LET'S GET REAL
-          </p>
-    
-    <p class="align">I don't want to sit here and try to brag about how I only eat healthy foods and I absolutely love to eat only spinach 
-        for breakfast, lunch, and dinner. Instead, I rather tell you that I have learned to mend my relationship with food and discover
-        that I like to eat foods that are nutritious to my body because of the way they make me feel. I eat them because they are vital to our bodies,
-        improve my overall health and well-being, and keep me satiated and full for longer.
-    </p>
-    <p class="align">
-        For me, it is super important to have protein and fiber in every meal in order to keep me full for long and suppress my cravings. Also, prioritizing
-        protein in every meal can help build lean muscle mass so get those GAINS!
-    </p>
-    <p class="align">I have provided a couple YouTube videos that give quick healthy recipes for any time of the day. I am currently working on filming content of my own to share with
-        you guys so stay tuned!
-    </p>
-    <h2 class="align" id="title1">
-            Easy 5-Ingredient Healthy Energy Bars
-    </h2>	
-    <p id="rightbox">I find these bars so easy to make and are the perfect grab-and-go meal whenever you are rushing out of the house, need a snack, or need a pre-workout meal to give
-        you a boost of energy. This snack is very tasty right out the fridge so I recommend storing them in the fridge rather than sitting in room temperature because they will last longer too!
-    </p>
-    <br>
-    <iframe class="align" width="1000" height="750" src="https://www.youtube.com/embed/k-x2eFdQZas?list=WL" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    <br>
-    <div>
-        <h2 class="align" id="title1">Best Oatmeal Recipe</h2>
-    </div>
-    <br>
-    <p id="rightbox">Oatmeal is one of my all time favorite breakfast meals. They are incredibly nutritious, are rich in antioxidants, help improve blood sugar control, and are very filling and keep me full for hours! The list
-        goes on and on. The recipe below is my go-to but there are endless toppings you can put on top of oatmeal that will give each a different personality. You could do peanut butter banana one day, frozen berries
-        with honey another day, or even chocolate chips with strawberries on top the next day, the possibilities are endless!
-    </p>
-    <iframe class="align" width="1000" height="750" src="https://www.youtube.com/embed/ws1YdzsAKOw?list=WL" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    <br>
-    <div>
-        <h2 class="align" id="title1">Egg White Muffin Meal-Prep</h2>
-    </div>
-    <br>
-    <p id="rightbox">I wanted to provide you guys with this gem because this is perfect for when you know you have a busy week coming up. This recipe allows you to make many servings at once So all you have to do is just pop the muffins in 
-        the microwave and serve them with a serving of carbs and a serving of healthy fats and your good to go! I like to have these muffins on the side of multigrain toast topped with avocado. That way, I'm getting 
-        protein, carbs, and fats all in one meal!
-    </p>
-    <iframe class="align" width="1000" height="750" src="https://www.youtube.com/embed/aAYbSg1FovY?list=WL" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    <br>
-</div>
-<br>
-<div class="footer">
-    <p><a href="sitemap.html">Sitemap</a></p>
-    <br>
-<script>
-    
-
-    
-    window.onscroll = function() {myFunction()};
-    
-    let navbar = document.getElementById("navbar");
-    let sticky = navbar.offsetTop;
-    
-    function myFunction() {
-      if (window.pageYOffset >= sticky) {
-        navbar.classList.add("sticky")
-      } else {
-        navbar.classList.remove("sticky");
+        padding-bottom: unset;
       }
-    }
-// "animate something or add some other functionalities besides what is listed above.""
 
-    </script>
-</body>
+      #rightbox {
+        float: right;
+        width: 50%;
+        height: 280px;
+      }
+    </style>
+  </head>
+  <body>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow:wght@900&family=Lora:wght@400;500&family=Montserrat:ital,wght@1,900&family=Open+Sans&family=Raleway:ital,wght@1,900&family=Staatliches&display=swap"
+      rel="stylesheet"
+    />
+    <div id="navbar" class="topnav">
+      <h1 id="navbar">THE SINLESS FORK</h1>
+      <a href="index.html">About Me</a>
+      <a href="wellness.html">Wellness</a>
+      <a class="active" href="healthyeats.html">Healthy Eats</a>
+      <a href="notsohealthyeats.html">Not So Healthy Eats</a>
+      <a href="fitness.html">Fitness</a>
+      <a href="contactpage.html">Contact</a>
+      <hr id="thin" />
+    </div>
+    <div class="container">
+      <img
+        src="images/healthyeatsbanner.png"
+        class="image"
+        title="Healthy Eats Banner"
+        alt="healthyeats"
+      />
+    </div>
+    <div class="body">
+      <p id="title" class="align">
+        LET'S GET REAL
+      </p>
+
+      <p class="align">
+        I don't want to sit here and try to brag about how I only eat healthy
+        foods and I absolutely love to eat only spinach for breakfast, lunch,
+        and dinner. Instead, I rather tell you that I have learned to mend my
+        relationship with food and discover that I like to eat foods that are
+        nutritious to my body because of the way they make me feel. I eat them
+        because they are vital to our bodies, improve my overall health and
+        well-being, and keep me satiated and full for longer.
+      </p>
+      <p class="align">
+        For me, it is super important to have protein and fiber in every meal in
+        order to keep me full for long and suppress my cravings. Also,
+        prioritizing protein in every meal can help build lean muscle mass so
+        get those GAINS!
+      </p>
+      <p class="align">
+        I have provided a couple YouTube videos that give quick healthy recipes
+        for any time of the day. I am currently working on filming content of my
+        own to share with you guys so stay tuned!
+      </p>
+      <h2 class="align" id="title1">
+        Easy 5-Ingredient Healthy Energy Bars
+      </h2>
+      <p id="rightbox">
+        I find these bars so easy to make and are the perfect grab-and-go meal
+        whenever you are rushing out of the house, need a snack, or need a
+        pre-workout meal to give you a boost of energy. This snack is very tasty
+        right out the fridge so I recommend storing them in the fridge rather
+        than sitting in room temperature because they will last longer too!
+      </p>
+      <br />
+      <iframe
+        class="align"
+        width="1000"
+        height="750"
+        src="https://www.youtube.com/embed/k-x2eFdQZas?list=WL"
+        frameborder="0"
+        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen
+      ></iframe>
+      <br />
+      <div>
+        <h2 class="align" id="title1">Best Oatmeal Recipe</h2>
+      </div>
+      <br />
+      <p id="rightbox">
+        Oatmeal is one of my all time favorite breakfast meals. They are
+        incredibly nutritious, are rich in antioxidants, help improve blood
+        sugar control, and are very filling and keep me full for hours! The list
+        goes on and on. The recipe below is my go-to but there are endless
+        toppings you can put on top of oatmeal that will give each a different
+        personality. You could do peanut butter banana one day, frozen berries
+        with honey another day, or even chocolate chips with strawberries on top
+        the next day, the possibilities are endless!
+      </p>
+      <iframe
+        class="align"
+        width="1000"
+        height="750"
+        src="https://www.youtube.com/embed/ws1YdzsAKOw?list=WL"
+        frameborder="0"
+        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen
+      ></iframe>
+      <br />
+      <div>
+        <h2 class="align" id="title1">Egg White Muffin Meal-Prep</h2>
+      </div>
+      <br />
+      <p id="rightbox">
+        I wanted to provide you guys with this gem because this is perfect for
+        when you know you have a busy week coming up. This recipe allows you to
+        make many servings at once So all you have to do is just pop the muffins
+        in the microwave and serve them with a serving of carbs and a serving of
+        healthy fats and your good to go! I like to have these muffins on the
+        side of multigrain toast topped with avocado. That way, I'm getting
+        protein, carbs, and fats all in one meal!
+      </p>
+      <iframe
+        class="align"
+        width="1000"
+        height="750"
+        src="https://www.youtube.com/embed/aAYbSg1FovY?list=WL"
+        frameborder="0"
+        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen
+      ></iframe>
+      <br />
+    </div>
+    <br />
+    <div class="footer">
+      <p><a href="sitemap.html">Sitemap</a></p>
+      <br />
+      <script>
+        window.onscroll = function () {
+          myFunction();
+        };
+
+        let navbar = document.getElementById("navbar");
+        let sticky = navbar.offsetTop;
+
+        function myFunction() {
+          if (window.pageYOffset >= sticky) {
+            navbar.classList.add("sticky");
+          } else {
+            navbar.classList.remove("sticky");
+          }
+        }
+        // "animate something or add some other functionalities besides what is listed above.""
+      </script>
+    </div>
+  </body>
 </html>
